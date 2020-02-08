@@ -17,6 +17,20 @@ header {
       width: 180px;
     }
   }
+
+  .cd-primary-nav {
+    margin: 1.5rem 0 1rem;
+    line-height: 150%;
+  }
+  .cd-secondary-nav {
+    margin: 1.5rem 0 1rem;
+    line-height: 150%;
+  }
+
+  .cd-primary-nav  a {
+    margin-left: 1.5rem;
+    color: $color-3;
+  }
   
   .cd-main-nav {
     /* main navigation background color - full screen on small devices */
