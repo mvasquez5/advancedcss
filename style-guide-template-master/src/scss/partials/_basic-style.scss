@@ -320,6 +320,19 @@ section {
 	&:nth-of-type(6) h2::before {
 		content: '6. ';
 	}
+    
+    &:nth-of-type(7) h2::before {
+		content: '7. ';
+	}
+      &:nth-of-type(8) h2::before {
+		content: '8. ';
+	}
+      &:nth-of-type(9) h2::before {
+		content: '9. ';
+	}
+    &:nth-of-type(10) h2::before {
+		content: '10. ';
+	}
 
 	@include MQ(S) {
 		margin: 3em 0 5em;
