@@ -29,7 +29,7 @@ header {
   
     @include MQ(M) {
       li a {
-        color: lighten($color-2, 40%);
+        color: lighten($color-2, 80%);
   
         &.selected {
           color: $color-5;
