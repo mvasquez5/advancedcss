@@ -22,7 +22,8 @@ xButtons
   }
 
   .no-touch &:hover {
-    background: lighten($color-1, 5%);
+    color: $color-5;
+    background: $color-1;
   }
 
   &.btn-success {
